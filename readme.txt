@@ -7,4 +7,4 @@ send_log.txt		=>	发送的日志。
 
 
 
-demo.php、sendmsg.php 中需要填入相应的手机号码、密码等才可以。
+demo.php、sendmsg.php 中需要填入相应的手机号码、密码等才可以
