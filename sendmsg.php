@@ -19,7 +19,7 @@ foreach($mobileArr as $k => $v)
 	while($retryInit < 2)//若失败再重试1次
 	{
         $retryInit++;
-        $fetion->sendMSG($v, $content);	// 接收人手机号、飞信内容//刘硕飞信号774843412，手机15221552826
+        $fetion->sendMSG($v, $content);	// 接收人手机号、飞信内容//刘硕飞信号******，手机******
         $sendStatus = json_decode($fetion->GetResultJson(),true);
         $str .= '执行状态：'.$sendStatus['Msg']."\n"; 
 		if($sendStatus['Staus'] == 0)
